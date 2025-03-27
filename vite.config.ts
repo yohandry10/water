@@ -12,5 +12,11 @@ export default defineConfig({
       // Disable native modules
       context: 'globalThis'
     }
+  },
+  server: {
+    port: 3000
+  },
+  preview: {
+    port: 3000
   }
 });
