@@ -15,10 +15,12 @@ import BrandActivations from './components/BrandActivations';
 import BrandCommunity from './components/BrandCommunity';
 import SocialPresence from './components/SocialPresence';
 import Footer from './components/Footer';
+import PagePreloader from './components/PagePreloader';
 
 const App = () => {
   return (
     <div className="relative">
+      <PagePreloader />
       <Navbar />
       <Hero />
       <BrandEssence />
